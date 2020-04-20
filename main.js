@@ -5,10 +5,10 @@
 // va applicato uno sconto del 40% per gli over 65
 
 // chiedere all utente la sua età
-var eta = prompt('Qual è la sua età:', '30');
+var eta = prompt('Qual è la sua età?', '30');
 
 // chiedere all utente il numero di km che vuole percorrere
-var km = prompt('Quanti chilometri vuole percorrere:' ,'20');
+var km = prompt('Quanti chilometri vuole percorrere?' ,'20');
 
 // costo biglietto
 var biglietto = (km * 0.21);
