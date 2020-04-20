@@ -26,7 +26,7 @@ if (eta < 18) {
 }
 else {
     // console.log ('Il costo del suo biglietto è: ' + biglietto + '€');
-    document.getElementById('stampa').innerHTML=''Il costo del suo biglietto è: ' + biglietto.toFixed(2) + '€';
+    document.getElementById('stampa').innerHTML='Il costo del suo biglietto è: ' + biglietto.toFixed(2) + '€';
 
 }
 
