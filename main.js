@@ -30,6 +30,9 @@ else {
 
 }
 
+// function is_numeric(n) {
+//   return !isNaN(parseFloat(n)) && isFinite(n);
+// }
 // console.log (eta);
 // console.log (km('km'));
 // console.log (biglietto('€'));
@@ -38,6 +41,14 @@ else {
 
 if (isNaN(eta) == true || isNaN(km) == true) {
 console.log ('perfavore non prendermi in giro...inserisci dei valori numerici');
+}
+
+else if (eta < 0 == true || km < 0 == true) {
+console.log ('perfavore non prendermi in giro...non puoi aver una età o percorrere una distanza negativa ');
+}
+
+else if (eta % 1 != 0 || km % 1 !=0) {
+    console.log ('perfavore non prendermi in giro...non puoi aver una età o percorre decimale');
 }
 
 else {
