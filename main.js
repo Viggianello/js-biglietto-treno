@@ -24,11 +24,11 @@ else {
     console.log (('Il costo del suo biglietto è: ') + biglietto ('€'));
 }
 
-console.log (eta);
-console.log (km);
-console.log (biglietto);
-console.log (biglietto_scontato_minorenni);
-console.log (biglietto_scontato_anziani);
+// console.log (eta);
+// console.log (km('km'));
+// console.log (biglietto('€'));
+// console.log (biglietto_scontato_minorenni('€'));
+// console.log (biglietto_scontato_anziani('€'));
 
 
 // document.getElementById('stampacolore').innerHTML='Ecco il tuo colore preferito:
