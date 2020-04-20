@@ -35,6 +35,3 @@ else {
 // console.log (biglietto('€'));
 // console.log (biglietto_scontato_minorenni('€'));
 // console.log (biglietto_scontato_anziani('€'));
-
-
-document.getElementById('stampa').innerHTML='Essendo minorenne il suo biglietto usufruisce di uno scondo del 20% venendo cosi a costare: ' + biglietto_scontato_minorenni.toFixed(2) + '€';
