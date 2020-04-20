@@ -59,3 +59,4 @@ else {
 // else {
 //     console.log ('Bravo!!! hai inserito dei valori numerici');
 // }
+// avrei potuto anche far a meno delle variabili sconto_minorenni e sconto_anziani inizializzando le variabili biglietto_scontato_anziani 60% e biglietto_scontato_minorenni 80% cosi sarebbe gia fatto il calcolo senza la sottrazione perche 60 è complementare a 40% e 80% è complementare a 20% ossia le loro somme fanno 100%
