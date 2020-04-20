@@ -35,3 +35,11 @@ else {
 // console.log (biglietto('€'));
 // console.log (biglietto_scontato_minorenni('€'));
 // console.log (biglietto_scontato_anziani('€'));
+
+if (isNaN(eta) == true || isNaN(km) == true) {
+console.log ('perfavore non prendermi in giro...inserisci dei valori numerici');
+}
+
+else {
+    console.log ('Bravo!!! hai inserito dei valori numerici');
+}

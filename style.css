@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+    overflow-y: hidden;
+}
+
+#resultato{
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    color: black;
+    margin-top: 20%;
+    margin-right: 25%;
+    margin-left: 25%;
+    padding: 2%;
+}
