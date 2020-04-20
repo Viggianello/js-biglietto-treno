@@ -10,13 +10,19 @@ var eta = prompt('Qual è la sua età:', '30');
 var km = prompt('Quanti chilometri vuole percorrere:' ,'20');
 // costo biglietto
 var biglietto = (km * 0.21);
-// calcolare per poi applicare lo sconto in base all età e output
-var sconto_minorenni = ((biglietto / 100) * 20);
-var biglietto_scontato_minorenni = (biglietto - sconto_minorenni);
-
-var sconto_anziani = ((biglietto / 100 )* 40);
-var biglietto_scontato_anziani = (biglietto - sconto_anziani);
-
+// calcolare per poi applicare lo sconto corretto in base all età e visualizzare questo output
+if (eta < 18) {
+    var sconto_minorenni = ((biglietto / 100) * 20);
+    var biglietto_scontato_minorenni = (biglietto - sconto_minorenni);
+    console.log (('Essendo minorenne il suo biglietto usufruisce di uno scondo del 20% venendo cosi a costare: ') + biglietto_scontato_minorenni);
+} else if (eta > 65) {
+    var sconto_anziani = ((biglietto / 100 )* 40);
+    var biglietto_scontato_anziani = (biglietto - sconto_anziani);
+    console.log (('Essendo over 65 di età il suo biglietto usufruisce di uno scondo del 40% venendo cosi a costare: ') + biglietto_scontato_anziani);
+}
+else {
+    console.log (('Il costo del suo biglietto è: ') + biglietto);
+}
 
 console.log (eta);
 console.log (km);
